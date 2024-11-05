@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1 id="titulo">Faça o seu cadastro</h1>
+    <form class="formulario" action="database.php" method="POST">
+
+        <input id="nome" type="text" name="name" placeholder="Nome" autocomplete="off" required><br><br>
+        <input type="email" name="email" placeholder="Email" autocomplete="off" required><br><br>
+        <input type="password" name="password" placeholder="Senha" autocomplete="off" required><br><br>
+        <input type="password" name="password1" placeholder="Confirme sua senha" required><br><br>
+        
+        <input class="botao" type="submit" value="Enviar">
+    </form>
+</body>
+</html>
